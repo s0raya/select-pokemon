@@ -26,7 +26,7 @@ const actualizarPokemon = (url) => {
             <img src="${image}" alt="${name}"/>
             <div class="valores">
             <p><span>Name: </span>${name}</p>
-            <p><span>Types: </span>${types}</p>
+            <p><span>Types: </span>${type}</p>
             <p><span>Height: </span>${height}dms</p>
             <p><span>Weight: </span>${weight}hgms</p>
             </div>

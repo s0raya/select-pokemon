@@ -10,14 +10,19 @@
   <div class="container">
     <h1>Información de Pokémon</h1>
     <div class="pokemon-form">
-      <select id="pokemon-select">
-        <option value="bulbasaur">Bulbasaur</option>
-        <option value="charmander">Charmander</option>
-        <option value="squirtle">Squirtle</option>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1920px-International_Pok%C3%A9mon_logo.svg.png" alt="pokemon"/>
+      <select id="pokemon-select" class="pokemonselect">
+        <option selected hidden disabled value="">Elige un Pokémon</option>
+        <option class ="pikachu" value="pikachu">Pikachu</option>
+        <option class ="bulbasaur" value="bulbasaur">Bulbasaur</option>
+        <option class ="charmander" value="charmander">Charmander</option>
+        <option class ="squirtle" value="squirtle">Squirtle</option>
       </select>
       <button id="get-pokemon">Obtener Información</button>
     </div>
-    
+    <div id="info-pokemon" class="infopokemon">
+
+    </div>
   </div>
   <script src="./js/script.js"></script>
 </body>

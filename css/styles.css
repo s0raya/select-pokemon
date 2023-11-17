@@ -48,7 +48,7 @@ table {
 /*---------------------*/
 
 .container {
-    max-width: 1000p;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
     justify-content: center;
